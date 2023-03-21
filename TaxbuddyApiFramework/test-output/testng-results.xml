@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8837" started-at="2023-03-21T15:54:04 IST" finished-at="2023-03-21T15:54:12 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8837" started-at="2023-03-21T15:54:04 IST" finished-at="2023-03-21T15:54:12 IST">
+      <class name="api.test.UpdateUserProfileTest">
+        <test-method status="PASS" signature="userprofileupdateTest()[pri:0, instance:api.test.UpdateUserProfileTest@670b40af]" name="userprofileupdateTest" duration-ms="8736" started-at="2023-03-21T15:54:04 IST" finished-at="2023-03-21T15:54:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userprofileupdateTest -->
+      </class> <!-- api.test.UpdateUserProfileTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

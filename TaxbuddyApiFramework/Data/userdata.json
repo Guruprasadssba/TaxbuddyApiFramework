@@ -1,0 +1,13 @@
+{
+"firstName":"Gurupr",
+"lastName":"Test",
+"email":"guruprasad.n@ssbainnovations.com",
+"mobile":"2255887744",
+"langKey":"en",
+"cognitoId":"Guru@123",
+"source":"WEB",
+"initialData":"mobile=2255887744&serviceType=ITR",
+"serviceType":"ITR",
+"countryCode":"+91",
+"language":"English"
+}

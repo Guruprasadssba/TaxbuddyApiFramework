@@ -1,0 +1,27 @@
+{
+"fName":"Aish",
+"mName":"ssba",
+"lName":"Test",
+"fatherName":"innovations",
+"gender":"Female",
+"dateOfBirth":"",
+"maritalStatus":"single",
+"emailAddress":"nehal.dhumal@ssbainnovations.com",
+"aadharNumber":"",
+"panNumber":"",
+"mobileNumber":"8767891756",
+"residentialStatus":"Non Resident",
+"whatsAppNumber":"918767891756",
+"countryCode":"+91",
+"language":"English",
+"gstDetails":{"gstPortalUserName":"Gurussba",
+"gstPortalPassword":"ssba@123",
+"gstinNumber":"",
+"tradeName":"taxbudddy",
+"legalName":"incometax",
+"gstinRegisteredMobileNumber":"",
+"salesInvoicePrefix":"",
+"gstr1Type":"Monthly",
+"gstType":"Regular"
+}
+}
