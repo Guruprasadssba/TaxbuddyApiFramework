@@ -2,6 +2,8 @@ package api.test;
 
 import java.io.File;
 
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,6 +12,9 @@ import api.GenericUtilities.FileUtility;
 import api.endpoints.TaxbuddyEndpointsLibrary;
 import api.payload.GstDetails;
 import api.payload.UpdateUser;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
 
 public class UpdateUserProfileTest
 {
@@ -51,13 +56,15 @@ public class UpdateUserProfileTest
 		gstupdate.getGstr1Type();
 		gstupdate.getGstType();
 
-         // create object for pojo class 
+		// create object for pojo class 
 		UpdateUser payload= new UpdateUser(firstname, middlename, lastname, fname, gender, dob, mstatus, email, aadhar, pan, mob, residentStatus, watsappnum, countrycode, lang,gstupdate);
 
 		//send request to update user profile details
-		TaxbuddyEndpointsLibrary.updateUserProfileDetails(userId, payload, authorization)
-		.then()
-		.log().all();
+		Response response = TaxbuddyEndpointsLibrary.updateUserProfileDetails(userId, payload, authorization);
+		response.then().log().all();
+
+		//validation
+		Assert.assertEquals(response.getStatusCode(), 200);
 
 
 	}

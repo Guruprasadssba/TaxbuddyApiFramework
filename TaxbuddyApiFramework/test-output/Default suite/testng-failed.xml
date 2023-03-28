@@ -5,7 +5,9 @@
     <classes>
       <class name="api.test.SmeAgentAssigmentTest">
         <methods>
-          <include name="getAgentAssignItr"/>
+          <include name="getAgentAssignNotice"/>
+          <include name="configBM"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- api.test.SmeAgentAssigmentTest -->
     </classes>

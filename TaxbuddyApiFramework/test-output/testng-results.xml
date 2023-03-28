@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8837" started-at="2023-03-21T15:54:04 IST" finished-at="2023-03-21T15:54:12 IST">
+  <suite name="Default suite" duration-ms="5082" started-at="2023-03-28T17:30:43 IST" finished-at="2023-03-28T17:30:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8837" started-at="2023-03-21T15:54:04 IST" finished-at="2023-03-21T15:54:12 IST">
-      <class name="api.test.UpdateUserProfileTest">
-        <test-method status="PASS" signature="userprofileupdateTest()[pri:0, instance:api.test.UpdateUserProfileTest@670b40af]" name="userprofileupdateTest" duration-ms="8736" started-at="2023-03-21T15:54:04 IST" finished-at="2023-03-21T15:54:12 IST">
+    <test name="Default test" duration-ms="5082" started-at="2023-03-28T17:30:43 IST" finished-at="2023-03-28T17:30:48 IST">
+      <class name="api.test.SmeAgentAssigmentTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:api.test.SmeAgentAssigmentTest@4d3167f4]" name="configBM" is-config="true" duration-ms="245" started-at="2023-03-28T17:30:43 IST" finished-at="2023-03-28T17:30:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.SmeAgentAssigmentTest.getAgentAssignGST()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userprofileupdateTest -->
-      </class> <!-- api.test.UpdateUserProfileTest -->
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="getAgentAssignGST()[pri:0, instance:api.test.SmeAgentAssigmentTest@4d3167f4]" name="getAgentAssignGST" duration-ms="4209" started-at="2023-03-28T17:30:43 IST" finished-at="2023-03-28T17:30:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgentAssignGST -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.SmeAgentAssigmentTest@4d3167f4]" name="afterMethod" is-config="true" duration-ms="550" started-at="2023-03-28T17:30:47 IST" finished-at="2023-03-28T17:30:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAgentAssignGST status=SUCCESS method=SmeAgentAssigmentTest.getAgentAssignGST()[pri:0, instance:api.test.SmeAgentAssigmentTest@4d3167f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- api.test.SmeAgentAssigmentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
